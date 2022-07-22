@@ -42,75 +42,75 @@ class _contactState extends State<contact> {
                   SizedBox(
                     height: 10,
                   ),
-                  Row(
-                    children: [
-                      InkWell(
-                        child: Center(
-                          child: Container(
-                            decoration: BoxDecoration(
-                                image: DecorationImage(
-                                    fit: BoxFit.fill,
-                                    image: AssetImage("assets/facebook.png"))),
-                            width: 150,
-                            height: 150,
+                  SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
+                    child: Row(
+                      children: [
+                        InkWell(
+                          child: Center(
+                            child: Container(
+                              decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                      fit: BoxFit.fill,
+                                      image:
+                                          AssetImage("assets/facebook.png"))),
+                              width: 150,
+                              height: 150,
+                            ),
                           ),
+                          onTap: () async {
+                            final url =
+                                'https://www.facebook.com/Kathmandu-Bus-Route-108603005258719';
+                            if (await canLaunch(url)) {
+                              await launch(url);
+                            }
+                          },
                         ),
-                        onTap: () async {
-                          final url =
-                              'https://www.facebook.com/Kathmandu-Bus-Route-108603005258719';
-                          if (await canLaunch(url)) {
-                            await launch(url);
-                          }
-                        },
-                      ),
-                      SizedBox(
-                        width: 25,
-                      ),
-                      InkWell(
-                        child: Center(
-                          child: Container(
-                            decoration: BoxDecoration(
-                                image: DecorationImage(
-                                    fit: BoxFit.fill,
-                                    image: AssetImage("assets/instagram.png"))),
-                            width: 150,
-                            height: 150,
+                        SizedBox(
+                          width: 25,
+                        ),
+                        InkWell(
+                          child: Center(
+                            child: Container(
+                              decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                      fit: BoxFit.fill,
+                                      image:
+                                          AssetImage("assets/instagram.png"))),
+                              width: 150,
+                              height: 150,
+                            ),
                           ),
+                          onTap: () async {
+                            final url =
+                                'https://www.instagram.com/kathmandubusroute/';
+                            if (await canLaunch(url)) {
+                              await launch(url);
+                            }
+                          },
                         ),
-                        onTap: () async {
-                          final url =
-                              'https://www.instagram.com/kathmandubusroute/';
-                          if (await canLaunch(url)) {
-                            await launch(url);
-                          }
-                        },
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                   SizedBox(height: 25),
-                  Row(
-                    children: [
-                      SizedBox(width: 77),
-                      InkWell(
-                        child: Center(
-                          child: Container(
-                            decoration: BoxDecoration(
-                                image: DecorationImage(
-                                    fit: BoxFit.fill,
-                                    image: AssetImage("assets/twitter.png"))),
-                            width: 150,
-                            height: 150,
-                          ),
-                        ),
-                        onTap: () async {
-                          final url = 'https://twitter.com/KBusroute';
-                          if (await canLaunch(url)) {
-                            await launch(url);
-                          }
-                        },
+                  InkWell(
+                    child: Center(
+                      child: Container(
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                                fit: BoxFit.fill,
+                                image: AssetImage("assets/twitter.png"))),
+                        width: 150,
+                        height: 150,
                       ),
-                    ],
-                  )
+                    ),
+                    onTap: () async {
+                      final url = 'https://twitter.com/KBusroute';
+                      if (await canLaunch(url)) {
+                        await launch(url);
+                      }
+                    },
+                  ),
                 ],
               ),
             ),
