@@ -44,19 +44,22 @@ class _fourthState extends State<fourth> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                     child: Center(
-                      child: Container(
-                        height: 100,
-                        width: double.infinity,
-                        child: Center(
-                          child: Text(
-                            "Suryabinayak-Sanga",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
+                      child: AspectRatio(
+                        aspectRatio: 4 / 1,
+                        child: Container(
+                          height: 100,
+                          width: double.infinity,
+                          child: Center(
+                            child: Text(
+                              "Suryabinayak-Sanga",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
+                          color: Colors.amber,
                         ),
-                        color: Colors.amber,
                       ),
                     ),
                     onTap: () {
@@ -72,19 +75,22 @@ class _fourthState extends State<fourth> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                     child: Center(
-                      child: Container(
-                        height: 100,
-                        width: double.infinity,
-                        child: Center(
-                          child: Text(
-                            "Kamal Binayak-Nagarkot",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
+                      child: AspectRatio(
+                        aspectRatio: 4 / 1,
+                        child: Container(
+                          height: 100,
+                          width: double.infinity,
+                          child: Center(
+                            child: Text(
+                              "Kamal Binayak-Nagarkot",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
+                          color: Colors.amber,
                         ),
-                        color: Colors.amber,
                       ),
                     ),
                     onTap: () {
@@ -100,19 +106,22 @@ class _fourthState extends State<fourth> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                     child: Center(
-                      child: Container(
-                        height: 100,
-                        width: double.infinity,
-                        child: Center(
-                          child: Text(
-                            "Chamasingh - Nala",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
+                      child: AspectRatio(
+                        aspectRatio: 4 / 1,
+                        child: Container(
+                          height: 100,
+                          width: double.infinity,
+                          child: Center(
+                            child: Text(
+                              "Chamasingh - Nala",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
+                          color: Colors.amber,
                         ),
-                        color: Colors.amber,
                       ),
                     ),
                     onTap: () {
