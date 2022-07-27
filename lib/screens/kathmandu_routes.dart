@@ -74,19 +74,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                       child: Center(
-                        child: Container(
-                          height: 100,
-                          width: double.infinity,
-                          child: Center(
-                            child: Text(
-                              "Attarkhel-Purano Buspark",
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
+                        child: AspectRatio(
+                          aspectRatio: 4 / 1,
+                          child: Container(
+                            height: 100,
+                            width: double.infinity,
+                            child: Center(
+                              child: Text(
+                                "Attarkhel-Purano Buspark",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
+                            color: Colors.amber,
                           ),
-                          color: Colors.amber,
                         ),
                       ),
                       onTap: () {
@@ -98,19 +101,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                       child: Center(
-                        child: Container(
-                          height: 100,
-                          width: double.infinity,
-                          child: Center(
-                            child: Text(
-                              "Chakrapath Parikrama",
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
+                        child: AspectRatio(
+                          aspectRatio: 4 / 1,
+                          child: Container(
+                            height: 100,
+                            width: double.infinity,
+                            child: Center(
+                              child: Text(
+                                "Chakrapath Parikrama",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
+                            color: Colors.amber,
                           ),
-                          color: Colors.amber,
                         ),
                       ),
                       onTap: () {
@@ -125,19 +131,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                       child: Center(
-                        child: Container(
-                          height: 100,
-                          width: double.infinity,
-                          child: Center(
-                            child: Text(
-                              "Gokarna-Chabahil-Naya Buspark-Kalanki",
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
+                        child: AspectRatio(
+                          aspectRatio: 4 / 1,
+                          child: Container(
+                            height: 100,
+                            width: double.infinity,
+                            child: Center(
+                              child: Text(
+                                "Gokarna-Chabahil-Naya Buspark-Kalanki",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
+                            color: Colors.amber,
                           ),
-                          color: Colors.amber,
                         ),
                       ),
                       onTap: () {
@@ -152,19 +161,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                     child: Center(
-                      child: Container(
-                        height: 100,
-                        width: double.infinity,
-                        child: Center(
-                          child: Text(
-                            "Lagankhel-Naya Buspark ( Ringroad )",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
+                      child: AspectRatio(
+                        aspectRatio: 4 / 1,
+                        child: Container(
+                          height: 100,
+                          width: double.infinity,
+                          child: Center(
+                            child: Text(
+                              "Lagankhel-Naya Buspark ( Ringroad )",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
+                          color: Colors.amber,
                         ),
-                        color: Colors.amber,
                       ),
                     ),
                     onTap: () {
@@ -180,19 +192,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                       child: Center(
-                        child: Container(
-                          height: 100,
-                          width: double.infinity,
-                          child: Center(
-                            child: Text(
-                              "Ratnapark - Panauti",
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
+                        child: AspectRatio(
+                          aspectRatio: 4 / 1,
+                          child: Container(
+                            height: 100,
+                            width: double.infinity,
+                            child: Center(
+                              child: Text(
+                                "Ratnapark - Panauti",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
+                            color: Colors.amber,
                           ),
-                          color: Colors.amber,
                         ),
                       ),
                       onTap: () {
@@ -207,19 +222,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                       child: Center(
-                        child: Container(
-                          height: 100,
-                          width: double.infinity,
-                          child: Center(
-                            child: Text(
-                              "Ratnapark - Dhulikhel",
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
+                        child: AspectRatio(
+                          aspectRatio: 4 / 1,
+                          child: Container(
+                            height: 100,
+                            width: double.infinity,
+                            child: Center(
+                              child: Text(
+                                "Ratnapark - Dhulikhel",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
+                            color: Colors.amber,
                           ),
-                          color: Colors.amber,
                         ),
                       ),
                       onTap: () {
@@ -234,19 +252,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                       child: Center(
-                        child: Container(
-                          height: 100,
-                          width: double.infinity,
-                          child: Center(
-                            child: Text(
-                              "Ratna Park - Sundarijal",
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
+                        child: AspectRatio(
+                          aspectRatio: 4 / 1,
+                          child: Container(
+                            height: 100,
+                            width: double.infinity,
+                            child: Center(
+                              child: Text(
+                                "Ratna Park - Sundarijal",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
+                            color: Colors.amber,
                           ),
-                          color: Colors.amber,
                         ),
                       ),
                       onTap: () {
@@ -261,19 +282,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                       child: Center(
-                        child: Container(
-                          height: 100,
-                          width: double.infinity,
-                          child: Center(
-                            child: Text(
-                              "Ratna Park - Daksinkali",
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
+                        child: AspectRatio(
+                          aspectRatio: 4 / 1,
+                          child: Container(
+                            height: 100,
+                            width: double.infinity,
+                            child: Center(
+                              child: Text(
+                                "Ratna Park - Daksinkali",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
+                            color: Colors.amber,
                           ),
-                          color: Colors.amber,
                         ),
                       ),
                       onTap: () {
@@ -288,19 +312,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                       child: Center(
-                        child: Container(
-                          height: 100,
-                          width: double.infinity,
-                          child: Center(
-                            child: Text(
-                              "Jorpati - Purano Bus Park",
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
+                        child: AspectRatio(
+                          aspectRatio: 4 / 1,
+                          child: Container(
+                            height: 100,
+                            width: double.infinity,
+                            child: Center(
+                              child: Text(
+                                "Jorpati - Purano Bus Park",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
+                            color: Colors.amber,
                           ),
-                          color: Colors.amber,
                         ),
                       ),
                       onTap: () {
@@ -315,19 +342,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                       child: Center(
-                        child: Container(
-                          height: 100,
-                          width: double.infinity,
-                          child: Center(
-                            child: Text(
-                              "Purano Bus Park - Sakhu",
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
+                        child: AspectRatio(
+                          aspectRatio: 4 / 1,
+                          child: Container(
+                            height: 100,
+                            width: double.infinity,
+                            child: Center(
+                              child: Text(
+                                "Purano Bus Park - Sakhu",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
+                            color: Colors.amber,
                           ),
-                          color: Colors.amber,
                         ),
                       ),
                       onTap: () {
@@ -342,19 +372,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                       child: Center(
-                        child: Container(
-                          height: 100,
-                          width: double.infinity,
-                          child: Center(
-                            child: Text(
-                              "Kausaltar-Naikap",
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
+                        child: AspectRatio(
+                          aspectRatio: 4 / 1,
+                          child: Container(
+                            height: 100,
+                            width: double.infinity,
+                            child: Center(
+                              child: Text(
+                                "Kausaltar-Naikap",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
+                            color: Colors.amber,
                           ),
-                          color: Colors.amber,
                         ),
                       ),
                       onTap: () {
@@ -369,19 +402,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                       child: Center(
-                        child: Container(
-                          height: 100,
-                          width: double.infinity,
-                          child: Center(
-                            child: Text(
-                              "Budhanilkantha School- Ratna Park",
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
+                        child: AspectRatio(
+                          aspectRatio: 4 / 1,
+                          child: Container(
+                            height: 100,
+                            width: double.infinity,
+                            child: Center(
+                              child: Text(
+                                "Budhanilkantha School- Ratna Park",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
+                            color: Colors.amber,
                           ),
-                          color: Colors.amber,
                         ),
                       ),
                       onTap: () {
@@ -396,19 +432,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                       child: Center(
-                        child: Container(
-                          height: 100,
-                          width: double.infinity,
-                          child: Center(
-                            child: Text(
-                              "	Purano Bus Park- Budhanilkantha",
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
+                        child: AspectRatio(
+                          aspectRatio: 4 / 1,
+                          child: Container(
+                            height: 100,
+                            width: double.infinity,
+                            child: Center(
+                              child: Text(
+                                "	Purano Bus Park- Budhanilkantha",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
+                            color: Colors.amber,
                           ),
-                          color: Colors.amber,
                         ),
                       ),
                       onTap: () {
@@ -423,19 +462,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                       child: Center(
-                        child: Container(
-                          height: 100,
-                          width: double.infinity,
-                          child: Center(
-                            child: Text(
-                              "Purano Bus Park-Shivapuri",
-                              style: TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
+                        child: AspectRatio(
+                          aspectRatio: 4 / 1,
+                          child: Container(
+                            height: 100,
+                            width: double.infinity,
+                            child: Center(
+                              child: Text(
+                                "Purano Bus Park-Shivapuri",
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
+                            color: Colors.amber,
                           ),
-                          color: Colors.amber,
                         ),
                       ),
                       onTap: () {
@@ -450,19 +492,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                     child: Center(
-                      child: Container(
-                        height: 100,
-                        width: double.infinity,
-                        child: Center(
-                          child: Text(
-                            "Ratnapark-Changu",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
+                      child: AspectRatio(
+                        aspectRatio: 4 / 1,
+                        child: Container(
+                          height: 100,
+                          width: double.infinity,
+                          child: Center(
+                            child: Text(
+                              "Ratnapark-Changu",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
+                          color: Colors.amber,
                         ),
-                        color: Colors.amber,
                       ),
                     ),
                     onTap: () {
@@ -478,19 +523,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                     child: Center(
-                      child: Container(
-                        height: 100,
-                        width: double.infinity,
-                        child: Center(
-                          child: Text(
-                            "Bagbazaar-Kamalbinayak",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
+                      child: AspectRatio(
+                        aspectRatio: 4 / 1,
+                        child: Container(
+                          height: 100,
+                          width: double.infinity,
+                          child: Center(
+                            child: Text(
+                              "Bagbazaar-Kamalbinayak",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
+                          color: Colors.amber,
                         ),
-                        color: Colors.amber,
                       ),
                     ),
                     onTap: () {
@@ -506,19 +554,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                     child: Center(
-                      child: Container(
-                        height: 100,
-                        width: double.infinity,
-                        child: Center(
-                          child: Text(
-                            "Bhaktapur-Purano Thimi-Purano Buspark",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
+                      child: AspectRatio(
+                        aspectRatio: 4 / 1,
+                        child: Container(
+                          height: 100,
+                          width: double.infinity,
+                          child: Center(
+                            child: Text(
+                              "Bhaktapur-Purano Thimi-Purano Buspark",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
+                          color: Colors.amber,
                         ),
-                        color: Colors.amber,
                       ),
                     ),
                     onTap: () {
@@ -534,19 +585,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                     child: Center(
-                      child: Container(
-                        height: 100,
-                        width: double.infinity,
-                        child: Center(
-                          child: Text(
-                            "Kamalbinayak-Ratnapark",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
+                      child: AspectRatio(
+                        aspectRatio: 4 / 1,
+                        child: Container(
+                          height: 100,
+                          width: double.infinity,
+                          child: Center(
+                            child: Text(
+                              "Kamalbinayak-Ratnapark",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
+                          color: Colors.amber,
                         ),
-                        color: Colors.amber,
                       ),
                     ),
                     onTap: () {
@@ -562,19 +616,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                     child: Center(
-                      child: Container(
-                        height: 100,
-                        width: double.infinity,
-                        child: Center(
-                          child: Text(
-                            "Ratna Park - Chyamasingh",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
+                      child: AspectRatio(
+                        aspectRatio: 4 / 1,
+                        child: Container(
+                          height: 100,
+                          width: double.infinity,
+                          child: Center(
+                            child: Text(
+                              "Ratna Park - Chyamasingh",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
+                          color: Colors.amber,
                         ),
-                        color: Colors.amber,
                       ),
                     ),
                     onTap: () {
@@ -590,19 +647,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                     child: Center(
-                      child: Container(
-                        height: 100,
-                        width: double.infinity,
-                        child: Center(
-                          child: Text(
-                            "Gothatar-Purano Buspark",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
+                      child: AspectRatio(
+                        aspectRatio: 4 / 1,
+                        child: Container(
+                          height: 100,
+                          width: double.infinity,
+                          child: Center(
+                            child: Text(
+                              "Gothatar-Purano Buspark",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
+                          color: Colors.amber,
                         ),
-                        color: Colors.amber,
                       ),
                     ),
                     onTap: () {
@@ -618,19 +678,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                     child: Center(
-                      child: Container(
-                        height: 100,
-                        width: double.infinity,
-                        child: Center(
-                          child: Text(
-                            "Kalanki-Balkumari",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
+                      child: AspectRatio(
+                        aspectRatio: 4 / 1,
+                        child: Container(
+                          height: 100,
+                          width: double.infinity,
+                          child: Center(
+                            child: Text(
+                              "Kalanki-Balkumari",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
+                          color: Colors.amber,
                         ),
-                        color: Colors.amber,
                       ),
                     ),
                     onTap: () {
@@ -646,19 +709,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                     child: Center(
-                      child: Container(
-                        height: 100,
-                        width: double.infinity,
-                        child: Center(
-                          child: Text(
-                            "Kalanki-Pepsicola",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
+                      child: AspectRatio(
+                        aspectRatio: 4 / 1,
+                        child: Container(
+                          height: 100,
+                          width: double.infinity,
+                          child: Center(
+                            child: Text(
+                              "Kalanki-Pepsicola",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
+                          color: Colors.amber,
                         ),
-                        color: Colors.amber,
                       ),
                     ),
                     onTap: () {
@@ -674,19 +740,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                     child: Center(
-                      child: Container(
-                        height: 100,
-                        width: double.infinity,
-                        child: Center(
-                          child: Text(
-                            "Purano Buspark - Chabahil",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
+                      child: AspectRatio(
+                        aspectRatio: 4 / 1,
+                        child: Container(
+                          height: 100,
+                          width: double.infinity,
+                          child: Center(
+                            child: Text(
+                              "Purano Buspark - Chabahil",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
+                          color: Colors.amber,
                         ),
-                        color: Colors.amber,
                       ),
                     ),
                     onTap: () {
@@ -702,19 +771,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                     child: Center(
-                      child: Container(
-                        height: 100,
-                        width: double.infinity,
-                        child: Center(
-                          child: Text(
-                            "Nepal Yatayat-Balkumari-Gopi Krishna",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
+                      child: AspectRatio(
+                        aspectRatio: 4 / 1,
+                        child: Container(
+                          height: 100,
+                          width: double.infinity,
+                          child: Center(
+                            child: Text(
+                              "Nepal Yatayat-Balkumari-Gopi Krishna",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
+                          color: Colors.amber,
                         ),
-                        color: Colors.amber,
                       ),
                     ),
                     onTap: () {
@@ -730,19 +802,22 @@ class _secondState extends State<second> {
                   padding: const EdgeInsets.all(8.0),
                   child: InkWell(
                     child: Center(
-                      child: Container(
-                        height: 100,
-                        width: double.infinity,
-                        child: Center(
-                          child: Text(
-                            "Kalanki-TIA Airport",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
+                      child: AspectRatio(
+                        aspectRatio: 4 / 1,
+                        child: Container(
+                          height: 100,
+                          width: double.infinity,
+                          child: Center(
+                            child: Text(
+                              "Kalanki-TIA Airport",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
+                          color: Colors.amber,
                         ),
-                        color: Colors.amber,
                       ),
                     ),
                     onTap: () {

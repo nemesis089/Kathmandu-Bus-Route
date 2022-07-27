@@ -65,13 +65,16 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 InkWell(
                   child: Center(
-                    child: Container(
-                      decoration: BoxDecoration(
-                          image: DecorationImage(
-                              fit: BoxFit.fill,
-                              image: AssetImage("assets/3.jpg"))),
-                      width: double.infinity,
-                      height: 175,
+                    child: AspectRatio(
+                      aspectRatio: 21 / 9,
+                      child: Container(
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                                fit: BoxFit.fill,
+                                image: AssetImage("assets/3.jpg"))),
+                        width: double.infinity,
+                        height: 175,
+                      ),
                     ),
                   ),
                   onTap: () {
@@ -84,13 +87,16 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 InkWell(
                   child: Center(
-                    child: Container(
-                      decoration: BoxDecoration(
-                          image: DecorationImage(
-                              fit: BoxFit.fill,
-                              image: AssetImage("assets/4.jpg"))),
-                      width: double.infinity,
-                      height: 175,
+                    child: AspectRatio(
+                      aspectRatio: 21 / 9,
+                      child: Container(
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                                fit: BoxFit.fill,
+                                image: AssetImage("assets/4.jpg"))),
+                        width: double.infinity,
+                        height: 175,
+                      ),
                     ),
                   ),
                   onTap: () {
@@ -103,13 +109,16 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 InkWell(
                   child: Center(
-                    child: Container(
-                      decoration: BoxDecoration(
-                          image: DecorationImage(
-                              fit: BoxFit.fill,
-                              image: AssetImage("assets/5.jpg"))),
-                      width: double.infinity,
-                      height: 175,
+                    child: AspectRatio(
+                      aspectRatio: 21 / 9,
+                      child: Container(
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                                fit: BoxFit.fill,
+                                image: AssetImage("assets/5.jpg"))),
+                        width: double.infinity,
+                        height: 175,
+                      ),
                     ),
                   ),
                   onTap: () {
