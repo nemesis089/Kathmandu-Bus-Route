@@ -45,14 +45,17 @@ class _route4State extends State<route4> {
                   ),
                   InkWell(
                     child: Center(
-                      child: Container(
-                        decoration: BoxDecoration(
-                            border: Border.all(color: Colors.black),
-                            image: DecorationImage(
-                                fit: BoxFit.fill,
-                                image: AssetImage("assets/route4.jpg"))),
-                        width: double.infinity,
-                        height: 250,
+                      child: AspectRatio(
+                        aspectRatio: 12 / 8,
+                        child: Container(
+                          decoration: BoxDecoration(
+                              border: Border.all(color: Colors.black),
+                              image: DecorationImage(
+                                  fit: BoxFit.fill,
+                                  image: AssetImage("assets/route4.jpg"))),
+                          width: double.infinity,
+                          height: 250,
+                        ),
                       ),
                     ),
                     onTap: () async {

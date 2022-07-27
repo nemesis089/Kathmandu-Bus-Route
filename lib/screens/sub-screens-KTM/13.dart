@@ -45,14 +45,17 @@ class _route13State extends State<route13> {
                   ),
                   InkWell(
                     child: Center(
-                      child: Container(
-                        decoration: BoxDecoration(
-                            border: Border.all(color: Colors.black),
-                            image: DecorationImage(
-                                fit: BoxFit.fill,
-                                image: AssetImage("assets/route12.jpg"))),
-                        width: double.infinity,
-                        height: 250,
+                      child: AspectRatio(
+                        aspectRatio: 12 / 8,
+                        child: Container(
+                          decoration: BoxDecoration(
+                              border: Border.all(color: Colors.black),
+                              image: DecorationImage(
+                                  fit: BoxFit.fill,
+                                  image: AssetImage("assets/route12.jpg"))),
+                          width: double.infinity,
+                          height: 250,
+                        ),
                       ),
                     ),
                     onTap: () async {
