@@ -439,7 +439,7 @@ class _secondState extends State<second> {
                             width: double.infinity,
                             child: Center(
                               child: Text(
-                                "	Purano Bus Park- Budhanilkantha",
+                                "Purano Bus Park- Budhanilkantha",
                                 style: TextStyle(
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold,
