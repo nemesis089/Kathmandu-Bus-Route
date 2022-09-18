@@ -1,6 +1,6 @@
 # app
 
-A new Flutter project.
+Kathmandu Bus Route is a open-source mobile application designed to provide information about Kathmandu Valley's public bus routes.
 
 ## Getting Started
 
