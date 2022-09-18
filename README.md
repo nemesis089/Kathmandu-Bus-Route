@@ -4,7 +4,7 @@ Kathmandu Bus Route is a open-source mobile application designed to provide info
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is based on Flutter.
 
 A few resources to get you started if this is your first Flutter project:
 
